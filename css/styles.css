@@ -1,0 +1,57 @@
+.menu {
+	text-align: center;
+}
+
+.houseList {
+	display: inline-block;
+	margin: 20px;
+}
+
+.kingdom {
+	background-image: url("../assets/background.png");
+	background-size: auto 100%;
+	color: white;
+	font-family: "Alice", serif;
+	text-align: center;
+	border: 2px solid black;
+
+
+
+}
+
+.crest {
+	width: 200px;
+	height: 260px;
+	padding: 10px;
+}
+
+
+.house {
+	background-color: grey;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid white;
+}
+
+.region {
+	background-color: grey;
+	font-size: 20px;
+}
+
+.lord {
+	background-color: rgb(187, 163, 107);
+	font-size: 25px;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+}
+
+.allegiance {
+	background-color: rgb(187, 163, 107);
+	font-size: 20px;
+}
+
+.words {
+	background-color: rgb(187, 163, 107);
+	font-style: italic;
+}
