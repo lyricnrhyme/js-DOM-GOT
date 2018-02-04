@@ -1,6 +1,7 @@
 body {
 	background-image: url("../assets/download.jpg");
 	background-size: 30%;
+	margin: 0px;
 }
 
 #title {
@@ -10,7 +11,8 @@ body {
 	font-family: "Alice", serif;
 	text-align: center;
 	border-bottom: 3px solid rgb(66, 27, 48);
-	margin: 0px;
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
 #subhead {
@@ -36,7 +38,8 @@ body {
 	background-size: auto 100%;
 	font-family: "Alice", serif;
 	text-align: center;
-	border: 2px solid black;
+	box-shadow: 4px 4px 2px black;
+	border: 4px solid rgb(66, 27, 48);
 }
 
 .crest {
@@ -68,7 +71,7 @@ body {
 	font-size: 25px;
 	font-weight: bold;
 	padding: 5px;
-	border-bottom: 2px solid rgb(66, 27, 48);
+	border-bottom: 3px solid rgb(66, 27, 48);
 }
 
 .allegiance {
