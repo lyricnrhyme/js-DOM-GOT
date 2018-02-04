@@ -27,6 +27,7 @@ for (var i=0; i<kingdoms.length; i++){
 	var divElem = document.createElement("div");
 	divElem.className = "kingdom";
 	listElem.appendChild(divElem);
+	divElem.addEventListener("click", imageFocus);
 
 	var crestElem = document.createElement("IMG");
 	crestElem.className = "crest";
@@ -61,5 +62,11 @@ for (var i=0; i<kingdoms.length; i++){
 	divElem.appendChild(wordsElem);
 
 	// console.log(kingdoms[i]);
+}
+
+function imageFocus() {
+	// console.log("openNav test");
+	var selectPic = this.querySelector(".kingdom");
+	console.log("test");
 }
 
