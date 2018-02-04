@@ -1,3 +1,27 @@
+body {
+	background-image: url("../assets/download.jpg");
+	background-size: 30%;
+}
+
+#title {
+	background-color: rgb(187, 163, 107);
+	color: rgb(66, 27, 48);
+	font-size: 70px;
+	font-family: "Alice", serif;
+	text-align: center;
+	border-bottom: 3px solid rgb(66, 27, 48);
+	margin: 0px;
+}
+
+#subhead {
+	background-color: rgb(187, 163, 107);
+	color: rgb(66, 27, 48);
+	font-size: 40px;
+	font-family: "Alice", serif;
+	text-align: center;
+	margin: 0px;
+}
+
 .menu {
 	text-align: center;
 }
@@ -10,13 +34,9 @@
 .kingdom {
 	background-image: url("../assets/background.png");
 	background-size: auto 100%;
-	color: white;
 	font-family: "Alice", serif;
 	text-align: center;
 	border: 2px solid black;
-
-
-
 }
 
 .crest {
@@ -27,31 +47,47 @@
 
 
 .house {
-	background-color: grey;
+	background-color: rgb(66, 27, 48);
+	color: white;
 	font-size: 25px;
 	font-weight: bold;
 	text-transform: uppercase;
+	padding: 5px;
 	border-bottom: 1px solid white;
 }
 
 .region {
-	background-color: grey;
+	background-color: rgb(66, 27, 48);
+	color: white;
 	font-size: 20px;
 }
 
 .lord {
 	background-color: rgb(187, 163, 107);
+	color: rgb(66, 27, 48);
 	font-size: 25px;
 	font-weight: bold;
-	border-bottom: 1px solid white;
+	padding: 5px;
+	border-bottom: 2px solid rgb(66, 27, 48);
 }
 
 .allegiance {
 	background-color: rgb(187, 163, 107);
+	color: rgb(66, 27, 48);
 	font-size: 20px;
 }
 
 .words {
 	background-color: rgb(187, 163, 107);
+	color: rgb(66, 27, 48);
 	font-style: italic;
+	padding-bottom: 5px;
+}
+
+.words:before {
+	content: '"';
+}
+
+.words:after {
+	content: '"';
 }
