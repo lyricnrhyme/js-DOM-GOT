@@ -64,6 +64,7 @@ for (var i=0; i<kingdoms.length; i++){
 	// console.log(kingdoms[i]);
 }
 
+
 function imageFocus() {
 	// console.log("openNav test");
 	var selectPic = this.querySelector(".kingdom");
